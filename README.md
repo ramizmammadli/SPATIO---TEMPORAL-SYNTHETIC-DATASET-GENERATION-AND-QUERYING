@@ -52,9 +52,12 @@ It includes the raw input of the instance to initiate. The input data is entered
 #### steps
 <b> steps </b> folder can consist of the 5 predefined steps. The folder of each step is created once the step is launched. 
 
+#### coll_alloc
+Once the step is launched, the [interm](#interm) and [output](#output) folders are created automatically.
+
 ##### interm
 
-The folder holds the intermediary data that are either obtained directly from the raw input or  data that are modified in the previous steps. 
+The folder holds the intermediary data that are either obtained directly from the [raw_input](#raw_input) or  data that are modified in the previous steps. 
 
 ##### output
 
@@ -62,7 +65,7 @@ It contains the the output data of the step which can be downloaded by the user,
 
 ## logs
 
-The folder consists of the logs of each step. Once the steps are created, the <b> YYYYMMDD_logs </b> directory of them will be automatically assigned in this folder. 
+The folder consists of the logs of each step. Once the steps are created, the [YYYYMMDD_logs](#YYYYMMDD_logs) directory of them will be automatically assigned in this folder. 
 
 ### YYYYMMDD_logs
 Each step has its seperate log file to found an isolated and integrated environment.
