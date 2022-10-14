@@ -4,8 +4,8 @@
 --------------------
 <!--ts-->
 * [config](#config)
-    * [```instances.json```](#```instances.json```)
-    * [```mappings.json```](#```mappings.json```)
+    * [```instances.json```](#instancesjson)
+    * [```mappings.json```](#mappingsjson)
 * [instances](#instances)
     * [YYYYMMDD](#YYYYMMDD)
         * [raw_input](#raw_input)
@@ -18,10 +18,10 @@
         * [collateral_allocation](#collateral_allocation)
 * [src](#src)
     * [modules](#modules)
-    * [```EngineMngr.py```](#```EngineMngr.py```)
-    * [```InstanceMngr.py```](#```InstanceMngr.py```)
-    * [```Admin.py```](#```Admin.py```)
-* [```__init.py__```](#```__init.py__```)
+    * [```EngineMngr.py```](#EngineMngrpy)
+    * [```InstanceMngr.py```](#InstanceMngrpy)
+    * [```Admin.py```](#Adminpy)
+* [```__init.py__```](#__initpy__)
 <!--te-->
 ---------
 
