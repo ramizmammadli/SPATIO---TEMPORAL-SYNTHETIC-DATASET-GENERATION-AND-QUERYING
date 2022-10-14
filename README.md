@@ -2,9 +2,10 @@
 
 ## Table of Contents
 --------------------
+<!--ts-->
 * [config](#config)
-    * [instances.json](#instancesjson)
-    * [mappings.json](#mappings.json)
+    * [```instances.json```](#instances.json```)
+    * [```mappings.json```](#```mappings.json```)
 * [instances](#instances)
     * [YYYYMMDD](#YYYMMDD)
         * [raw_input](#raw_input)
@@ -21,18 +22,17 @@
     * [```InstanceMngr.py```](#```InstanceMngr.py```)
     * [```Admin.py```](#```Admin.py```)
 * [```__init.py__```](#```__init.py__```)
+<!--te-->
 ---------
 
 ## config
 This folder includes the files to configure the variables and keep the valuable information about the backup of the system. 
-
-### instancesjson
-
+### ```instances.json```
 The file will keep the data in JSON format as the checkpoint of the system.  Under the  ```instances{}``` json, there will be the <b>ID</b>, <b>date & time </b> and <b> steps</b> of the instance that is created once the button is clicked.  
 
 In the ```steps{}```, there is the status and iteration of each step. This will be used to sustain the dependency of every step from one another. So that, once the step is launched, the <b>iteration</b> will be increased and it will benchmark the logic of the system. For example, as long as the iteration of a step is more than the previous steps, it cannot be launched.
 
-Additionally, the <b>status </b> indicates whether the step succeeded or not. 1 stands for 'success', 0 stands for 'not launched', 2 stands for 'failure'. 
+Additionally, the <b>status </b> indicates whether the step succeeded or not. 1 stands for <i> success </i>, 0 stands for <i> not launched </i>, 2 stands for <i> failure </i>. 
 
 This file can be modified and expanded when there are updates in the further levels.
 
@@ -90,4 +90,4 @@ Once the project is run, Instance Manager will be triggered before the compilati
 
 ## ```__init.py__```
 
-When the <b> run </b> button is clicked by the user, ```__init.py__``` is triggered, as default. This code is the initiative of all the project.
+When the <b> run </b> button is clicked by the user, ```__init.py__``` is triggered, as default. This code is the initiative of all the project
