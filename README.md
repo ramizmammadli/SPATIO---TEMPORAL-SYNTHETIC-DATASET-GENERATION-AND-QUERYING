@@ -79,6 +79,7 @@ In this section, there will be all the source codes that are developed throughou
 Further files and folders can be uploaded depending on the procedure.
 
 ### modules
+The folder includes built-in or user-defined modules to contribute to the functionality of the project. Each module has only one purpose to serve and it is independent from the others in the directory.
 
 ### ```EngineMngr.py```
 
