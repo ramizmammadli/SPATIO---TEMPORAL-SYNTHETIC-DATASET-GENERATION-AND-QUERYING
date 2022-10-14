@@ -71,7 +71,7 @@ The folder consists of the logs of each step. Once the steps are created, the [Y
 Each step has its seperate log file to found an isolated and integrated environment.
 
 #### collateral_allocation
-<b> collateral_allocation </b> has only a file which is the logs of the activity applied on the step. 
+This folder has only a file which is the logs of the activity applied on the step. 
 
 ## src
 
